@@ -1,6 +1,6 @@
 {
-    "name": "saleslayer/magento-community-plugin",
-    "description": "Magento Open Source extension for Sales Layer PIM",
+    "name": "moreno24/magento-community-plugin-test",
+    "description": "Magento Open Source extension for Sales Layer PIM Test",
     "type": "magento2-module",
     "license": [
       "GPL-3.0-or-later"
@@ -19,16 +19,9 @@
         "email": "pedro.moreno@saleslayer.com",
         "homepage": "https://www.saleslayer.com/",
         "role": "Developer"
-    },
-    {
-      "name": "Jose Ángel Luis",
-        "email": "jose.luis@saleslayer.com",
-        "homepage": "https://www.saleslayer.com/",
-        "role": "Developer"
     }],
     "support": {
         "email": "connectors@saleslayer.com"
-    },
-    "minimum-stability": "stable"
+    }
   }
   
