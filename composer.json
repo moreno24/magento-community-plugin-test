@@ -2,13 +2,13 @@
     "name": "moreno24/magento-community-plugin-test",
     "description": "Magento Open Source extension for Sales Layer PIM Test",
     "type": "magento2-module",
-    "version": "2.9.5",
+    "version": "2.9.6",
     "license": [
       "GPL-3.0-or-later"
     ],
     "require": {
       "php": ">=7.3 <8.2",
-      "magento/product-community-edition": ">=2.4.5 <2.4.6"
+      "magento/product-community-edition": ">=2.4.5 <=2.4.7"
     },
     "autoload": {
       "files": [ "registration.php" ],

@@ -6648,7 +6648,8 @@ class Synccatalog extends \Magento\Framework\Model\AbstractModel{
             $mg_product_fields = array('name' => '');
             $mg_product_fields = $this->getValues($mg_product_id, 'catalog_product_entity', $mg_product_fields, $this->product_entity_type_id);
             
-            $deletedMessage = "The product with SKU ".$mg_product_core_data['sku']." and title: ".$mg_product_fields['name'];         
+            $deletedMessage = "The product with SKU ".$mg_product_core_data['sku'];
+            if (isset($mg_product_fields['name'])) $deletedMessage .= " and title: ".$mg_product_fields['name'];
 
             try{
 
