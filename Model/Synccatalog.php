@@ -11695,12 +11695,12 @@ class Synccatalog extends \Magento\Framework\Model\AbstractModel{
 
 
 
+            // potato
 
 
 
 
 
-            
             if ($db_value === $value) {
 
                 return true;
