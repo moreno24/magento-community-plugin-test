@@ -11695,7 +11695,7 @@ class Synccatalog extends \Magento\Framework\Model\AbstractModel{
 
 
 
-            // potato5
+            // potato7
 
 
 
